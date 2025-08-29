@@ -1,30 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { 
-  Phone, 
-  Mail, 
-  MapPin, 
-  Clock,
-  ArrowUp,
-  Shield,
-  Globe,
-  Users
-} from "lucide-react";
-
+import { Phone, Mail, MapPin, Clock, ArrowUp, Shield, Globe, Users } from "lucide-react";
 const Footer = () => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <footer className="bg-secondary text-secondary-foreground">
+  return <footer className="bg-secondary text-secondary-foreground">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto">
@@ -32,11 +24,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <img 
-                  src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
-                  alt="AVENTOR Artigos Industriais"
-                  className="h-10 w-auto"
-                />
+                <img src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" alt="AVENTOR Artigos Industriais" className="h-10 w-auto" />
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-primary">AVENTOR</span>
                   <span className="text-xs text-muted-foreground">ARTIGOS INDUSTRIAIS</span>
@@ -62,34 +50,19 @@ const Footer = () => {
             <div>
               <h4 className="font-bold text-foreground mb-6">Links Rápidos</h4>
               <nav className="space-y-3">
-                <button 
-                  onClick={() => scrollToSection('inicio')}
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                >
+                <button onClick={() => scrollToSection('inicio')} className="block text-muted-foreground hover:text-primary transition-colors">
                   Início
                 </button>
-                <button 
-                  onClick={() => scrollToSection('sobre')}
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                >
+                <button onClick={() => scrollToSection('sobre')} className="block text-muted-foreground hover:text-primary transition-colors">
                   Sobre Nós
                 </button>
-                <button 
-                  onClick={() => scrollToSection('servicos')}
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                >
+                <button onClick={() => scrollToSection('servicos')} className="block text-muted-foreground hover:text-primary transition-colors">
                   Produtos e Serviços
                 </button>
-                <button 
-                  onClick={() => scrollToSection('diferenciais')}
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                >
+                <button onClick={() => scrollToSection('diferenciais')} className="block text-muted-foreground hover:text-primary transition-colors">
                   Diferenciais
                 </button>
-                <button 
-                  onClick={() => scrollToSection('contato')}
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                >
+                <button onClick={() => scrollToSection('contato')} className="block text-muted-foreground hover:text-primary transition-colors">
                   Contato
                 </button>
               </nav>
@@ -168,9 +141,7 @@ const Footer = () => {
                 © {new Date().getFullYear()} AVENTOR Importação e Exportação de Artigos Industriais. 
                 Todos os direitos reservados.
               </p>
-              <p className="text-xs text-muted-foreground mt-2">
-                CNPJ: XX.XXX.XXX/XXXX-XX | Fundada em 2011
-              </p>
+              <p className="text-xs text-muted-foreground mt-2">Fundada em 2011</p>
             </div>
             
             <div className="flex items-center space-x-4">
@@ -178,12 +149,7 @@ const Footer = () => {
                 <Users className="w-4 h-4 text-primary" />
                 <span>Atendimento humanizado</span>
               </div>
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={scrollToTop}
-                className="hover:bg-primary hover:text-white transition-colors"
-              >
+              <Button variant="outline" size="sm" onClick={scrollToTop} className="hover:bg-primary hover:text-white transition-colors">
                 <ArrowUp className="w-4 h-4 mr-2" />
                 Voltar ao Topo
               </Button>
@@ -191,8 +157,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
