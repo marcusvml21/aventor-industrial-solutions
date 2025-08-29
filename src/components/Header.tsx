@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X, Mail } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,10 +63,6 @@ const Header = () => {
           {/* Desktop Contact Info */}
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm">
-              <Phone className="w-4 h-4 text-primary" />
-              <span className="text-muted-foreground">(21) 3153-8101</span>
-            </div>
-            <div className="flex items-center space-x-2 text-sm">
               <Mail className="w-4 h-4 text-primary" />
               <span className="text-muted-foreground">contato@aventor.com.br</span>
             </div>
@@ -118,10 +114,6 @@ const Header = () => {
                 Contato
               </button>
               <div className="pt-4 border-t border-border">
-                <div className="flex items-center space-x-2 text-sm mb-2">
-                  <Phone className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">(21) 3153-8101</span>
-                </div>
                 <div className="flex items-center space-x-2 text-sm">
                   <Mail className="w-4 h-4 text-primary" />
                   <span className="text-muted-foreground">contato@aventor.com.br</span>

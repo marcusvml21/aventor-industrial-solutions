@@ -103,7 +103,6 @@ const Footer = () => {
                   <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-sm text-muted-foreground">
-                      (21) 3153-8101<br />
                       (21) 99845-7455
                     </p>
                   </div>
