@@ -23,7 +23,7 @@ const Differentials = () => {
     description: "Equipamentos de última geração e profissionais altamente qualificados para garantir a excelência.",
     highlight: "Tecnologia"
   }];
-  const features = ["Certificações de Qualidade Internacional", "Atendimento Personalizado", "Entrega Dentro do Prazo", "Suporte Técnico Especializado", "Controle de Qualidade Rigoroso", "Flexibilidade de Produção"];
+  const features = ["Certificações de Qualidade", "Atendimento Personalizado", "Entrega Dentro do Prazo", "Suporte Técnico Especializado", "Controle de Qualidade Rigoroso", "Flexibilidade de Produção"];
   return <section id="diferenciais" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">

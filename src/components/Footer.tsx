@@ -92,8 +92,7 @@ const Footer = () => {
                   <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-sm text-muted-foreground">
-                      Seg - Sex: 8h às 18h<br />
-                      Sábado: 8h às 12h
+                      Seg - Sex: 8h às 18h
                     </p>
                   </div>
                 </div>
@@ -111,7 +110,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-muted-foreground">Roupas Anti-Chama</span>
+                <span className="text-muted-foreground">Material Elétrico e Hidráulico</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
@@ -124,10 +123,6 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
                 <span className="text-muted-foreground">Material Médico-Hospitalar</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-muted-foreground">Gerenciamento de Resíduos</span>
               </div>
             </div>
           </div>

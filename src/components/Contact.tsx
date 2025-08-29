@@ -114,7 +114,6 @@ const Contact = () => {
                         <h4 className="font-semibold text-foreground mb-1">Horário de Atendimento</h4>
                         <div className="space-y-1 text-muted-foreground">
                           <p>Segunda a Sexta: 8h às 18h</p>
-                          <p>Sábado: 8h às 12h</p>
                         </div>
                       </div>
                     </div>

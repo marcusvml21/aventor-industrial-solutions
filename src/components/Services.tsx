@@ -20,19 +20,19 @@ const Services = () => {
       icon: Shirt,
       title: "Uniformes Profissionais",
       description: "Confecção completa de uniformes masculinos e femininos: conjuntos, jalecos, calças, camisas, macacões, casacos, jaquetas e acessórios.",
-      features: ["Modelagem customizada", "Diversos tecidos", "Bolsos personalizados", "Linha NR-10"]
+      features: ["Modelagem customizada", "Diversos tecidos", "Bolsos personalizados"]
     },
     {
       icon: Shield,
       title: "Roupas Especiais de Segurança",
       description: "Fabricação especializada em roupas anti-chama, retardante à chama e impermeáveis para máxima proteção industrial.",
-      features: ["Anti-chama certificadas", "Retardante à chama", "Impermeáveis", "Normas de segurança"]
+      features: ["Anti-chama certificadas", "Retardante à chama", "Impermeáveis", "Linha NR-10"]
     },
     {
       icon: HardHat,
       title: "EPIs e Materiais Industriais",
       description: "Comércio atacadista de equipamentos de proteção individual, materiais elétricos, ferragens, ferramentas e equipamentos.",
-      features: ["EPIs certificados", "Material elétrico", "Ferragens e ferramentas", "Equipamentos industriais"]
+      features: ["EPIs certificados", "Material elétrico e hidráulico", "Ferragens e ferramentas", "Material Hospitalar"]
     },
     {
       icon: Globe,
@@ -46,12 +46,6 @@ const Services = () => {
       description: "Serviços especializados em reparo e manutenção de roupas profissionais e uniformes industriais.",
       features: ["Reparo profissional", "Manutenção preventiva", "Restauração", "Prolongamento da vida útil"]
     },
-    {
-      icon: Recycle,
-      title: "Gerenciamento de Resíduos",
-      description: "Administração, gerenciamento e coleta de resíduos não perigosos com responsabilidade ambiental.",
-      features: ["Coleta especializada", "Gestão ambiental", "Responsabilidade social", "Sustentabilidade"]
-    }
   ];
 
   const openWhatsApp = () => {
