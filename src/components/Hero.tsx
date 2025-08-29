@@ -42,7 +42,7 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
             <span className="block">Soluções Industriais</span>
-            <span className="block bg-gradient-to-r from-white to-primary-glow bg-clip-text text-transparent">
+            <span className="block">
               e de Segurança
             </span>
             <span className="block text-3xl md:text-4xl lg:text-5xl mt-2">
