@@ -14,15 +14,15 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border shadow-card">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-card">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
               src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
               alt="AVENTOR Artigos Industriais"
-              className="h-10 w-auto"
+              className="h-20 w-auto"
             />
           </div>
 
@@ -85,7 +85,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 bg-background border-b border-border shadow-card">
+          <div className="md:hidden absolute top-20 left-0 right-0 bg-white/95 border-b border-border shadow-card">
             <nav className="flex flex-col space-y-4 p-6">
               <button 
                 onClick={() => scrollToSection('inicio')}
