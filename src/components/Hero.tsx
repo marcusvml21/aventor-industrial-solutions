@@ -36,7 +36,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
             <CheckCircle className="w-4 h-4 text-white" />
-            <span className="text-sm font-medium">Fundada em 2011 • +30 anos de experiência</span>
+            <span className="text-sm font-medium">Fundada em 2011 • Qualidade e Confiança</span>
           </div>
           
           {/* Main Heading */}
@@ -52,7 +52,7 @@ const Hero = () => {
           
           {/* Subtitle */}
           <h2 className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Mais de 30 anos de experiência em confecção de uniformes profissionais, 
+            Especialista em confecção de uniformes profissionais, 
             EPIs e soluções industriais completas
           </h2>
           
@@ -95,8 +95,8 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">30+</div>
-              <div className="text-sm text-white/80">Anos de Experiência</div>
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">150+</div>
+              <div className="text-sm text-white/80">Clientes Atendidos</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">2011</div>
