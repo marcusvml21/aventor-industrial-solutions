@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Award, Users, Globe } from "lucide-react";
-import aboutImage from "@/assets/about-company.jpg";
+import aboutImage from "/lovable-uploads/2a4d56e3-40f4-46ea-9c52-97815d33e9e7.png";
 
 const About = () => {
   return (

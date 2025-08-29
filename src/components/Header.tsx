@@ -21,9 +21,13 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <img 
               src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
-              alt="AVENTOR Artigos Industriais"
-              className="h-20 w-auto"
+              alt="AVENTOR Logo"
+              className="h-20 w-auto drop-shadow-sm"
             />
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold text-primary tracking-wide">AVENTOR</span>
+              <span className="text-xs text-muted-foreground font-medium tracking-widest">SOLUÇÕES INDUSTRIAIS</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

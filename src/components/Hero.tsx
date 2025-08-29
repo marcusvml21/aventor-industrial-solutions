@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Globe, CheckCircle } from "lucide-react";
-import heroImage from "@/assets/hero-industrial.jpg";
+import heroImage from "@/assets/hero-diverse-industrial.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -23,7 +23,7 @@ const Hero = () => {
           alt="Profissionais industriais usando equipamentos de segurança AVENTOR"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-primary/40 to-primary/30"></div>
       </div>
       
       {/* Geometric Elements */}

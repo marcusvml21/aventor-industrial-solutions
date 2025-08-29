@@ -124,6 +124,10 @@ const Footer = () => {
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
                 <span className="text-muted-foreground">Material Médico-Hospitalar</span>
               </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <span className="text-muted-foreground">Material de Higiene Pessoal e Limpeza</span>
+              </div>
             </div>
           </div>
 
