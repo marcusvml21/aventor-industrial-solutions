@@ -4,16 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
-import { 
-  Phone, 
-  Mail, 
-  MapPin, 
-  Clock, 
-  Send,
-  MessageCircle,
-  ArrowRight
-} from "lucide-react";
-
+import { Phone, Mail, MapPin, Clock, Send, MessageCircle, ArrowRight } from "lucide-react";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -22,8 +13,9 @@ const Contact = () => {
     message: ''
   });
   const [isLoading, setIsLoading] = useState(false);
-  const { toast } = useToast();
-
+  const {
+    toast
+  } = useToast();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
@@ -32,29 +24,28 @@ const Contact = () => {
     setTimeout(() => {
       toast({
         title: "Mensagem enviada com sucesso!",
-        description: "Entraremos em contato em breve. Obrigado!",
+        description: "Entraremos em contato em breve. Obrigado!"
       });
-      setFormData({ name: '', email: '', phone: '', message: '' });
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        message: ''
+      });
       setIsLoading(false);
     }, 1000);
   };
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
-
   const openWhatsApp = () => {
-    const message = encodeURIComponent(
-      `Olá! Gostaria de solicitar um orçamento para ${formData.name ? formData.name : 'minha empresa'}. ${formData.message ? `Detalhes: ${formData.message}` : ''}`
-    );
+    const message = encodeURIComponent(`Olá! Gostaria de solicitar um orçamento para ${formData.name ? formData.name : 'minha empresa'}. ${formData.message ? `Detalhes: ${formData.message}` : ''}`);
     window.open(`https://wa.me/5521998457455?text=${message}`, '_blank');
   };
-
-  return (
-    <section id="contato" className="py-20 bg-background">
+  return <section id="contato" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
@@ -91,7 +82,7 @@ const Contact = () => {
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">Telefones</h4>
                         <div className="space-y-1">
-                          <p className="text-muted-foreground">(21) 3153-8101</p>
+                          
                           <p className="text-muted-foreground">(21) 99845-7455</p>
                         </div>
                       </div>
@@ -140,10 +131,7 @@ const Contact = () => {
                     <p className="text-white/80 mb-4">
                       Fale diretamente conosco para orçamentos rápidos
                     </p>
-                    <Button 
-                      onClick={openWhatsApp}
-                      className="bg-white text-primary hover:bg-white/90 shadow-hover font-semibold"
-                    >
+                    <Button onClick={openWhatsApp} className="bg-white text-primary hover:bg-white/90 shadow-hover font-semibold">
                       Chamar no WhatsApp
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
@@ -166,31 +154,13 @@ const Contact = () => {
                       <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
                         Nome Completo *
                       </label>
-                      <Input
-                        id="name"
-                        name="name"
-                        type="text"
-                        required
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        placeholder="Seu nome completo"
-                        className="w-full"
-                      />
+                      <Input id="name" name="name" type="text" required value={formData.name} onChange={handleInputChange} placeholder="Seu nome completo" className="w-full" />
                     </div>
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
                         Telefone *
                       </label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        required
-                        value={formData.phone}
-                        onChange={handleInputChange}
-                        placeholder="(xx) xxxxx-xxxx"
-                        className="w-full"
-                      />
+                      <Input id="phone" name="phone" type="tel" required value={formData.phone} onChange={handleInputChange} placeholder="(xx) xxxxx-xxxx" className="w-full" />
                     </div>
                   </div>
 
@@ -198,55 +168,24 @@ const Contact = () => {
                     <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
                       E-mail *
                     </label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      placeholder="seu@email.com"
-                      className="w-full"
-                    />
+                    <Input id="email" name="email" type="email" required value={formData.email} onChange={handleInputChange} placeholder="seu@email.com" className="w-full" />
                   </div>
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                       Mensagem *
                     </label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      required
-                      value={formData.message}
-                      onChange={handleInputChange}
-                      placeholder="Descreva suas necessidades, tipo de uniforme, quantidade, prazo..."
-                      rows={5}
-                      className="w-full resize-none"
-                    />
+                    <Textarea id="message" name="message" required value={formData.message} onChange={handleInputChange} placeholder="Descreva suas necessidades, tipo de uniforme, quantidade, prazo..." rows={5} className="w-full resize-none" />
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <Button 
-                      type="submit" 
-                      disabled={isLoading}
-                      className="flex-1 bg-primary hover:bg-primary/90 shadow-hover font-semibold"
-                    >
-                      {isLoading ? (
-                        <>Enviando...</>
-                      ) : (
-                        <>
+                    <Button type="submit" disabled={isLoading} className="flex-1 bg-primary hover:bg-primary/90 shadow-hover font-semibold">
+                      {isLoading ? <>Enviando...</> : <>
                           <Send className="mr-2 w-4 h-4" />
                           Enviar Mensagem
-                        </>
-                      )}
+                        </>}
                     </Button>
-                    <Button 
-                      type="button"
-                      variant="outline"
-                      onClick={openWhatsApp}
-                      className="flex-1 hover:bg-primary hover:text-white font-semibold"
-                    >
+                    <Button type="button" variant="outline" onClick={openWhatsApp} className="flex-1 hover:bg-primary hover:text-white font-semibold">
                       <MessageCircle className="mr-2 w-4 h-4" />
                       WhatsApp
                     </Button>
@@ -261,8 +200,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
