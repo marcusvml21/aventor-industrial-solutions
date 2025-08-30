@@ -39,11 +39,11 @@ const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextTestimonial = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 2) % testimonials.length);
   };
 
   const prevTestimonial = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length);
+    setCurrentIndex((prevIndex) => (prevIndex - 2 + testimonials.length) % testimonials.length);
   };
 
   useEffect(() => {
@@ -63,7 +63,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-6xl mx-auto">
           <div className="bg-card rounded-2xl shadow-elegant p-8 md:p-12 relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-primary-glow/5"></div>
@@ -74,53 +74,75 @@ const Testimonials = () => {
             </div>
 
             <div className="relative z-10">
-              <blockquote className="text-lg md:text-xl text-foreground leading-relaxed mb-6 min-h-[120px] flex items-center">
-                "{testimonials[currentIndex].text}"
-              </blockquote>
-              
-              <div className="flex items-center justify-between">
+              <div className="grid md:grid-cols-2 gap-8">
+                {/* First testimonial */}
                 <div>
-                  <cite className="font-semibold text-foreground text-lg">
-                    — {testimonials[currentIndex].author}
-                  </cite>
-                  <p className="text-muted-foreground">
-                    {testimonials[currentIndex].position}
-                  </p>
+                  <blockquote className="text-lg md:text-xl text-foreground leading-relaxed mb-6 min-h-[120px] flex items-center">
+                    "{testimonials[currentIndex].text}"
+                  </blockquote>
+                  
+                  <div>
+                    <cite className="font-semibold text-foreground text-lg">
+                      — {testimonials[currentIndex].author}
+                    </cite>
+                    <p className="text-muted-foreground">
+                      {testimonials[currentIndex].position}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="flex gap-2">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={prevTestimonial}
-                    className="rounded-full p-2"
-                  >
-                    <ChevronLeft className="w-4 h-4" />
-                  </Button>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={nextTestimonial}
-                    className="rounded-full p-2"
-                  >
-                    <ChevronRight className="w-4 h-4" />
-                  </Button>
+                {/* Second testimonial */}
+                <div>
+                  <blockquote className="text-lg md:text-xl text-foreground leading-relaxed mb-6 min-h-[120px] flex items-center">
+                    "{testimonials[(currentIndex + 1) % testimonials.length].text}"
+                  </blockquote>
+                  
+                  <div>
+                    <cite className="font-semibold text-foreground text-lg">
+                      — {testimonials[(currentIndex + 1) % testimonials.length].author}
+                    </cite>
+                    <p className="text-muted-foreground">
+                      {testimonials[(currentIndex + 1) % testimonials.length].position}
+                    </p>
+                  </div>
                 </div>
+              </div>
+
+              <div className="flex justify-center mt-8 gap-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={prevTestimonial}
+                  className="rounded-full p-2"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={nextTestimonial}
+                  className="rounded-full p-2"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </Button>
               </div>
             </div>
           </div>
 
           {/* Dots Indicator */}
           <div className="flex justify-center mt-6 gap-2">
-            {testimonials.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`w-2 h-2 rounded-full transition-all ${
-                  index === currentIndex ? 'bg-primary w-8' : 'bg-muted-foreground/30'
-                }`}
-              />
-            ))}
+            {testimonials.map((_, index) => {
+              const isActive = index === currentIndex || index === (currentIndex + 1) % testimonials.length;
+              return (
+                <button
+                  key={index}
+                  onClick={() => setCurrentIndex(index)}
+                  className={`w-2 h-2 rounded-full transition-all ${
+                    isActive ? 'bg-primary w-8' : 'bg-muted-foreground/30'
+                  }`}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
