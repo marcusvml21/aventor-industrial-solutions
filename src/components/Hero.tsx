@@ -41,11 +41,11 @@ const Hero = () => {
           
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-            <span className="block">Soluções Industriais</span>
-            <span className="block">
+            <span className="block opacity-0 animate-fade-in" style={{animationDelay: '0.5s', animationFillMode: 'forwards'}}>Soluções Industriais</span>
+            <span className="block opacity-0 animate-fade-in" style={{animationDelay: '0.8s', animationFillMode: 'forwards'}}>
               e de Segurança
             </span>
-            <span className="block text-3xl md:text-4xl lg:text-5xl mt-2">
+            <span className="block text-3xl md:text-4xl lg:text-5xl mt-2 opacity-0 animate-fade-in" style={{animationDelay: '1.1s', animationFillMode: 'forwards'}}>
               com Qualidade Global
             </span>
           </h1>
