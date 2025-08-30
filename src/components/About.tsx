@@ -42,7 +42,7 @@ const About = () => {
                   confecção de roupas profissionais, consolidando-se como referência no setor 
                   de soluções industriais e de segurança.
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                   Especializados em fabricação de roupas especiais: <strong className="text-primary">
                   anti-chama, retardante à chama e impermeáveis</strong>, atendemos diversos 
                   segmentos industriais com excelência e inovação.
