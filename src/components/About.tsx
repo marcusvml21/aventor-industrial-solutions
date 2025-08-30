@@ -36,7 +36,7 @@ const About = () => {
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
                   História e Tradição
                 </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6 text-justify">
                   Fundada em <strong className="text-primary">2011</strong>, a AVENTOR conta com 
                   mais de <strong className="text-primary">30 anos de experiência</strong> na 
                   confecção de roupas profissionais, consolidando-se como referência no setor 
