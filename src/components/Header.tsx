@@ -18,16 +18,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
               alt="AVENTOR Logo"
               className="h-40 w-auto drop-shadow-sm"
             />
-            <div className="flex flex-col">
-              <span className="text-2xl font-bold text-primary tracking-wide">AVENTOR</span>
-              <span className="text-xs text-muted-foreground font-medium tracking-widest">SOLUÇÕES INDUSTRIAIS</span>
-            </div>
           </div>
 
           {/* Desktop Navigation */}
