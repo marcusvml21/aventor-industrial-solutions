@@ -22,7 +22,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
               alt="AVENTOR Logo"
-              className="h-20 w-auto drop-shadow-sm"
+              className="h-40 w-auto drop-shadow-sm"
             />
             <div className="flex flex-col">
               <span className="text-2xl font-bold text-primary tracking-wide">AVENTOR</span>

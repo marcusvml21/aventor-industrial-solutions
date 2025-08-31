@@ -53,8 +53,15 @@ const Services = () => {
   };
 
   return (
-    <section id="servicos" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="servicos" className="py-20 bg-background relative overflow-hidden">
+      <div className="absolute inset-0 flex items-center justify-center opacity-5">
+        <img 
+          src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
+          alt="AVENTOR Logo Marca d'água"
+          className="w-96 h-96 object-contain"
+        />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">

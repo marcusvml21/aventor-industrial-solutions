@@ -9,8 +9,13 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Sobre a <span className="text-primary">AVENTOR</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 flex items-center justify-center gap-4">
+              Sobre a 
+              <img 
+                src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
+                alt="AVENTOR Logo"
+                className="h-16 w-auto"
+              />
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Tradição, qualidade e inovação em soluções industriais desde 2011
