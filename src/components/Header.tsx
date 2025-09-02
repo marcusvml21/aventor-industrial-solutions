@@ -14,9 +14,9 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-1/2 transform -translate-x-1/2 z-50 bg-white border-b border-border shadow-card">
-      <div className="px-4">
-        <div className="flex items-center justify-between h-44" style={{width: 'auto'}}>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-card">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
             <img 
@@ -81,7 +81,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-44 left-0 right-0 bg-white/95 border-b border-border shadow-card">
+          <div className="md:hidden absolute top-20 left-0 right-0 bg-white/95 border-b border-border shadow-card">
             <nav className="flex flex-col space-y-4 p-6">
               <button 
                 onClick={() => scrollToSection('inicio')}
