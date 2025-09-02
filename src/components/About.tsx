@@ -14,7 +14,7 @@ const About = () => {
               <img 
                 src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
                 alt="AVENTOR Logo"
-                className="h-16 w-auto"
+                className="h-48 w-auto"
               />
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
