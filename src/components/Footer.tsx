@@ -26,8 +26,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-6">
                 <img src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" alt="AVENTOR Artigos Industriais" className="h-10 w-auto" />
                 <div className="flex flex-col">
-                  <span className="text-xl font-bold text-primary">AVENTOR</span>
-                  <span className="text-xs text-muted-foreground">ARTIGOS INDUSTRIAIS</span>
+                  <span className="text-xl font-bold text-primary">
+                </span>
+                  <span className="text-xs text-muted-foreground">
+                </span>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
