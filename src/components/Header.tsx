@@ -21,8 +21,8 @@ const Header = () => {
           <div className="flex items-center">
             <img 
               src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
-              alt="AVENTOR Logo"
-              className="h-40 w-auto drop-shadow-sm"
+              alt="AVENTOR Logo" 
+              className="h-24 w-auto drop-shadow-sm"
             />
           </div>
 
