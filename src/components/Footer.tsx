@@ -24,7 +24,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <img src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" alt="AVENTOR Artigos Industriais" className="h-10 w-auto" />
+                <img src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" alt="AVENTOR Artigos Industriais" className="h-20 w-auto" />
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-primary">
                 </span>
