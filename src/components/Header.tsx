@@ -8,7 +8,7 @@ const Header = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false);
     }
   };
@@ -19,41 +19,41 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
-              alt="AVENTOR Logo" 
+            <img
+              src="/Logo.png"
+              alt="AVENTOR Logo"
               className="h-24 w-auto drop-shadow-sm"
             />
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <button 
-              onClick={() => scrollToSection('inicio')}
+            <button
+              onClick={() => scrollToSection("inicio")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Início
             </button>
-            <button 
-              onClick={() => scrollToSection('sobre')}
+            <button
+              onClick={() => scrollToSection("sobre")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Sobre
             </button>
-            <button 
-              onClick={() => scrollToSection('servicos')}
+            <button
+              onClick={() => scrollToSection("servicos")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Serviços
             </button>
-            <button 
-              onClick={() => scrollToSection('diferenciais')}
+            <button
+              onClick={() => scrollToSection("diferenciais")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Diferenciais
             </button>
-            <button 
-              onClick={() => scrollToSection('contato')}
+            <button
+              onClick={() => scrollToSection("contato")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Contato
@@ -64,7 +64,9 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm">
               <Mail className="w-4 h-4 text-primary" />
-              <span className="text-muted-foreground">contato@aventor.com.br</span>
+              <span className="text-muted-foreground">
+                contato@aventor.com.br
+              </span>
             </div>
           </div>
 
@@ -83,32 +85,32 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden absolute top-20 left-0 right-0 bg-white/95 border-b border-border shadow-card">
             <nav className="flex flex-col space-y-4 p-6">
-              <button 
-                onClick={() => scrollToSection('inicio')}
+              <button
+                onClick={() => scrollToSection("inicio")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Início
               </button>
-              <button 
-                onClick={() => scrollToSection('sobre')}
+              <button
+                onClick={() => scrollToSection("sobre")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Sobre
               </button>
-              <button 
-                onClick={() => scrollToSection('servicos')}
+              <button
+                onClick={() => scrollToSection("servicos")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Serviços
               </button>
-              <button 
-                onClick={() => scrollToSection('diferenciais')}
+              <button
+                onClick={() => scrollToSection("diferenciais")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Diferenciais
               </button>
-              <button 
-                onClick={() => scrollToSection('contato')}
+              <button
+                onClick={() => scrollToSection("contato")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Contato
@@ -116,7 +118,9 @@ const Header = () => {
               <div className="pt-4 border-t border-border">
                 <div className="flex items-center space-x-2 text-sm">
                   <Mail className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">contato@aventor.com.br</span>
+                  <span className="text-muted-foreground">
+                    contato@aventor.com.br
+                  </span>
                 </div>
               </div>
             </nav>
