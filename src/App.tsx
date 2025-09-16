@@ -15,13 +15,14 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      {/* 👇 HashRouter garante funcionamento no GitHub Pages e domínio próprio */}
       <HashRouter>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Index />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              {/* 👇 Rota coringa para páginas inexistentes */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
