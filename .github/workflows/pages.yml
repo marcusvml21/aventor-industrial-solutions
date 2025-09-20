@@ -31,6 +31,15 @@ jobs:
       # Gera a pasta dist (build do Vite)
       - run: npm run build
       
+      # Copia o arquivo CNAME para a pasta dist
+      - run: |
+          if [ -f CNAME ]; then
+            cp CNAME dist/
+            echo "CNAME copiado para dist/"
+          else
+            echo "Arquivo CNAME não encontrado na raiz"
+          fi
+      
       # Entrega a pasta dist para o GitHub Pages com configurações completas
       - uses: actions/upload-pages-artifact@v3
         with:
