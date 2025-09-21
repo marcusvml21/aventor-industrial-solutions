@@ -1,5 +1,4 @@
 const App = () => {
-  return <div style={{fontSize:'32px',color:'green'}}>Site React Vite OK</div>;
+  return <h1 style={{color: 'green', fontSize: '2.5rem'}}>Site React + Vite Renderizando!</h1>;
 };
-
 export default App;
