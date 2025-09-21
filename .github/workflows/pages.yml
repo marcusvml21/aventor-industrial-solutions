@@ -26,8 +26,9 @@ jobs:
       # Instala as dependências com base no package-lock.json
       - run: npm ci
       
-      # Gera a pasta dist (build do Vite)
-      - run: npm run build
+      # Build limpo: remove dist existente e gera nova pasta dist
+      - name: Clean build
+        run: rm -rf dist && npm run build
       
       # Copia o arquivo CNAME para a pasta dist
       - run: |
