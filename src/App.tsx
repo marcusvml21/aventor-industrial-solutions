@@ -1,4 +1,14 @@
-const App = () => {
-  return <h1 style={{color: 'green', fontSize: '2.5rem'}}>Site React + Vite Renderizando!</h1>;
-};
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Index from "./pages/Index";
+
+const App = () => (
+  <>
+    <Header />
+    <main>
+      <Index />
+    </main>
+    <Footer />
+  </>
+);
 export default App;
