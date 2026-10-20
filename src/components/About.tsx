@@ -34,6 +34,8 @@ const About = () => {
               <img
                 src={aboutImageSrc}
                 alt="Instalações modernas da AVENTOR com equipamentos industriais de última geração"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-[500px] object-cover rounded-2xl shadow-elegant"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl"></div>

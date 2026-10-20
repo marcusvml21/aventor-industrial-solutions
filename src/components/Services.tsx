@@ -59,6 +59,8 @@ const Services = () => {
           src="/lovable-uploads/b4b13d43-2502-496b-9a16-8409b51a58e6.png" 
           alt="AVENTOR Logo Marca d'água"
           className="w-96 h-96 object-contain"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="container mx-auto px-4 relative z-10">
@@ -79,6 +81,10 @@ const Services = () => {
               src={productsImage} 
               alt="Linha completa de uniformes profissionais e EPIs da AVENTOR"
               className="w-full h-64 md:h-80 object-cover rounded-2xl shadow-elegant"
+              width="1200"
+              height="800"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/40 rounded-2xl flex items-center justify-center">
               <div className="text-center text-white">

@@ -85,3 +85,27 @@ Estado: publicado no GitHub Pages.
 Checkpoint da fase: commit `cec98c0`, tag `aventor-fase1-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `45a1383`.
 O domínio pode permanecer temporariamente em cache antigo na CDN; isso não representa falha do artefato publicado.
+
+## Fase 2 — SEO avançado e imagens — 2026-10-20
+
+Objetivo: fortalecer a indexação e o compartilhamento do site sem substituir as imagens institucionais ou de produto.
+
+Implementado:
+
+- Título e descrição da página refinados para busca orgânica.
+- Open Graph e Twitter Cards corrigidos para usar URLs reais do domínio `www.aventor.com.br`.
+- Criada imagem social `public/og-image.jpg` em 1200 × 630 usando a identidade visual existente.
+- Adicionados textos alternativos para compartilhamento social.
+- Dados estruturados ampliados com Organization e WebSite, fundação em 2011 e horário de atendimento.
+- Removidos metadados genéricos ou antigos que não contribuíam para a estratégia atual.
+- Imagem principal configurada como carregamento prioritário; imagens abaixo da abertura configuradas para carregamento tardio.
+- Dimensões explícitas adicionadas às imagens principais para reduzir mudanças de layout durante o carregamento.
+
+Validações da fase:
+
+- `npm run lint`: aprovado sem erros; 7 avisos preexistentes de Fast Refresh.
+- `npm run build`: aprovado.
+- Detector visual Impeccable: nenhum achado; execução em modo degradado por ausência de módulos opcionais do parser HTML.
+- Verificação de resíduos SEO: nenhuma referência antiga a certificações, “30+”, imagem social inexistente ou metadado removido.
+
+Estado: pronto para publicação.
