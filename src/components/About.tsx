@@ -1,10 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Award, Users, Globe } from "lucide-react";
+import aboutImage from "@/assets/about-company-v2.jpg";
 
 // ✅ Caminhos corrigidos para a pasta public
 const logoSrc = `${import.meta.env.BASE_URL}Logo.png`;
-const aboutImageSrc = `${import.meta.env.BASE_URL}aboutImage.png`; 
-// renomeie sua imagem de instalações modernas para "aboutImage.png" e coloque em /public
 
 const About = () => {
   return (
@@ -32,8 +31,10 @@ const About = () => {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-xl"></div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary-glow/10 rounded-full blur-xl"></div>
               <img
-                src={aboutImageSrc}
-                alt="Instalações modernas da AVENTOR com equipamentos industriais de última geração"
+                src={aboutImage}
+                alt="Processo de confecção de roupas profissionais em ambiente industrial"
+                width="1448"
+                height="1086"
                 loading="lazy"
                 decoding="async"
                 className="w-full h-[500px] object-cover rounded-2xl shadow-elegant"

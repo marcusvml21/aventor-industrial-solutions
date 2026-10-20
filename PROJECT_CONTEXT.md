@@ -127,6 +127,9 @@ Implementado:
 - Segunda amostra visual apresentada e aprovada para a imagem de produtos/uniformes.
 - Imagem da seção de produtos/uniformes substituída; a imagem anterior foi preservada no projeto.
 - Nova imagem otimizada para aproximadamente 392 KB.
+- Terceira amostra visual apresentada e aprovada para a seção “Sobre a AVENTOR”.
+- Imagem da seção “Sobre” substituída; a imagem anterior foi preservada no projeto.
+- Nova imagem otimizada para aproximadamente 372 KB.
 
 Validações da fase:
 
