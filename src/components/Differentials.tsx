@@ -70,10 +70,10 @@ const Differentials = () => {
           <div className="bg-gradient-primary rounded-2xl p-8 md:p-12 text-white">
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                Garantias de Qualidade
+                Compromissos da AVENTOR
               </h3>
               <p className="text-white/80 text-lg max-w-2xl mx-auto">
-                Compromisso com a excelência em cada projeto que desenvolvemos
+                Compromisso com cada projeto que desenvolvemos
               </p>
             </div>
             

@@ -37,8 +37,8 @@ const Services = () => {
     {
       icon: Globe,
       title: "Importação e Exportação",
-      description: "Serviços especializados em importação e exportação de artigos industriais com qualidade internacional.",
-      features: ["Artigos industriais", "Logística internacional", "Certificações", "Qualidade global"]
+      description: "Serviços especializados em importação e exportação de artigos industriais para apoiar diferentes operações.",
+      features: ["Artigos industriais", "Logística internacional", "Fornecimento sob demanda", "Apoio na operação"]
     },
     {
       icon: Wrench,
@@ -83,7 +83,7 @@ const Services = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/40 rounded-2xl flex items-center justify-center">
               <div className="text-center text-white">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                  Qualidade Certificada em Cada Produto
+                  Soluções para sua operação
                 </h3>
                 <Button 
                   onClick={openWhatsApp}

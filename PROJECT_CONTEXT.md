@@ -58,3 +58,26 @@ Validações realizadas:
 - Estado: publicada no GitHub Pages.
 - Versão pública: artefato do branch `gh-pages`, commit `d5306ac`.
 - Checkpoint documental: commit `41e160b`, associado à tag `aventor-v1-premium-publicada-2026-10-20`.
+
+## Fase 1 — Favicon, abertura e higiene pública — 2026-10-20
+
+Objetivo: reduzir a poluição visual da primeira tela, corrigir o favicon e remover referências públicas incompatíveis com as regras comerciais aprovadas.
+
+Implementado:
+
+- Favicon recriado a partir da marca enviada pelo proprietário, com versões para navegador e Apple touch icon.
+- Referência do favicon corrigida no HTML; o arquivo HTML inválido `favicon.jpg` deixou de ser utilizado.
+- Hero simplificado: removidos chips de categorias, estatísticas, elementos geométricos e indicador de rolagem.
+- Mantidos apenas o posicionamento, a mensagem principal e os dois caminhos de ação.
+- Removidas referências públicas a certificações, “qualidade certificada” e “garantias de qualidade”.
+- Sitemap reduzido à única rota realmente existente e atualizado para 2026-10-20.
+- Diretiva do sitemap adicionada ao `robots.txt`.
+
+Validações da fase:
+
+- `npm run lint`: aprovado sem erros; 7 avisos preexistentes de Fast Refresh.
+- `npm run build`: aprovado.
+- Detector visual Impeccable: nenhum achado; execução em modo degradado por ausência de módulos opcionais do parser HTML.
+- Inspeção visual local: abertura revisada e favicon conferido.
+
+Estado: pronto para publicação.
