@@ -41,7 +41,7 @@ Validações realizadas:
 - Inspeção visual: desktop e mobile aprovados.
 - HTML/SEO revisados para remover referências antigas a “30+ anos”, certificações e qualidade garantida.
 - Publicação executada pelo GitHub Actions com sucesso no run `39503910880`.
-- Artefato publicado confirmado no branch `gh-pages`, commit `f8100f9`.
+- Artefato publicado confirmado no branch `gh-pages`, commit `d5306ac`.
 - O domínio público respondeu com HTTP 200 e serviu os bundles da V1; a propagação de cache pode variar por alguns minutos.
 - Avisos não bloqueantes do deploy: futura migração de Node 20 para Node 24 nas actions e atualização futura do Ubuntu do runner.
 
@@ -56,5 +56,5 @@ Validações realizadas:
 ## Publicação V1 — 2026-10-20
 
 - Estado: publicada no GitHub Pages.
-- Versão pública: artefato do branch `gh-pages`, commit `f8100f9`.
-- Próximo checkpoint documental: será criado no commit desta atualização, após o push.
+- Versão pública: artefato do branch `gh-pages`, commit `d5306ac`.
+- Checkpoint documental: commit `41e160b`, associado à tag `aventor-v1-premium-publicada-2026-10-20`.
