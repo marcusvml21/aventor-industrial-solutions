@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Phone, Mail, Clock, ArrowUp, Shield, Globe, Users } from "lucide-react";
+import { Mail, Clock, ArrowUp, Shield, Globe, Users, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -42,18 +42,16 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
-                Mais de 30 anos de experiência em soluções industriais, confecção
-                de uniformes profissionais e equipamentos de segurança. Qualidade
-                e tradição desde 2011.
+                Uniformes profissionais, roupas especiais e soluções industriais para empresas que valorizam segurança, padronização e confiança.
               </p>
               <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2 bg-primary/10 rounded-full px-3 py-2">
                   <Shield className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium">Qualidade Certificada</span>
+                  <span className="text-sm font-medium">Desde 2011</span>
                 </div>
                 <div className="flex items-center space-x-2 bg-primary/10 rounded-full px-3 py-2">
                   <Globe className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium">Padrão Internacional</span>
+                  <span className="text-sm font-medium">Atendimento próximo</span>
                 </div>
               </div>
             </div>
@@ -99,12 +97,10 @@ const Footer = () => {
             <div>
               <h4 className="font-bold text-foreground mb-6">Contato</h4>
               <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-muted-foreground">(21) 99845-7455</p>
-                  </div>
-                </div>
+                <a href="https://wa.me/5521998457455" target="_blank" rel="noreferrer" className="flex items-start space-x-3 group">
+                  <MessageCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-sm text-muted-foreground group-hover:text-primary transition-colors">Falar pelo WhatsApp</span>
+                </a>
                 <div className="flex items-start space-x-3">
                   <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <div>

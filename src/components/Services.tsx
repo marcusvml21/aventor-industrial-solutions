@@ -26,13 +26,13 @@ const Services = () => {
       icon: Shield,
       title: "Roupas Especiais de Segurança",
       description: "Fabricação especializada em roupas anti-chama, retardante à chama e impermeáveis para máxima proteção industrial.",
-      features: ["Anti-chama certificadas", "Retardante à chama", "Impermeáveis", "Linha NR-10"]
+      features: ["Roupas anti-chama", "Retardante à chama", "Impermeáveis", "Linha NR-10"]
     },
     {
       icon: HardHat,
       title: "EPIs e Materiais Industriais",
-      description: "Comércio atacadista de equipamentos de proteção individual, materiais elétricos, ferragens, ferramentas e equipamentos.",
-      features: ["EPIs certificados", "Material elétrico e hidráulico", "Ferragens e ferramentas", "Material Hospitalar"]
+      description: "Fornecimento de equipamentos de proteção individual e materiais para apoiar a rotina industrial.",
+      features: ["EPIs e acessórios", "Material elétrico e hidráulico", "Ferragens e ferramentas", "Material hospitalar"]
     },
     {
       icon: Globe,

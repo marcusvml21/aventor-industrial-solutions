@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, Globe, CheckCircle } from "lucide-react";
+import { ArrowRight, Shield, Shirt, HardHat } from "lucide-react";
 import heroImage from "@/assets/hero-diverse-industrial.jpg";
 
 const Hero = () => {
@@ -32,43 +32,37 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20">
-        <div className="max-w-4xl mx-auto text-center text-white">
+        <div className="max-w-5xl mx-auto text-center text-white">
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
-            <CheckCircle className="w-4 h-4 text-white" />
-            <span className="text-sm font-medium">Fundada em 2011 • Qualidade e Confiança</span>
+            <Shield className="w-4 h-4 text-primary-glow" />
+            <span className="text-sm font-medium tracking-wide">AVENTOR · DESDE 2011</span>
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-            <span className="block opacity-0 animate-fade-in" style={{animationDelay: '0.5s', animationFillMode: 'forwards'}}>Soluções Industriais</span>
-            <span className="block opacity-0 animate-fade-in" style={{animationDelay: '0.8s', animationFillMode: 'forwards'}}>
-              e de Segurança
-            </span>
-            <span className="block text-3xl md:text-4xl lg:text-5xl mt-2 opacity-0 animate-fade-in" style={{animationDelay: '1.1s', animationFillMode: 'forwards'}}>
-              com Qualidade Global
-            </span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-6 tracking-tight">
+            <span className="block">Uniformes e proteção</span>
+            <span className="block text-primary-glow">para operações exigentes.</span>
           </h1>
           
           {/* Subtitle */}
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Especialista em confecção de uniformes profissionais, 
-            EPIs e soluções industriais completas
+          <h2 className="text-lg md:text-xl lg:text-2xl text-white/85 mb-10 max-w-3xl mx-auto leading-relaxed">
+            Uniformes profissionais, roupas especiais e soluções industriais para empresas que precisam de segurança, padronização e confiança.
           </h2>
           
           {/* Key Features */}
-          <div className="flex flex-wrap justify-center gap-6 mb-10">
+          <div className="flex flex-wrap justify-center gap-3 mb-10">
             <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-              <Shield className="w-5 h-5 text-white" />
-              <span className="text-sm font-medium">Roupas Anti-Chama</span>
+              <Shirt className="w-5 h-5 text-primary-glow" />
+              <span className="text-sm font-medium">Uniformes profissionais</span>
             </div>
             <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-              <Globe className="w-5 h-5 text-white" />
-              <span className="text-sm font-medium">Importação & Exportação</span>
+              <Shield className="w-5 h-5 text-primary-glow" />
+              <span className="text-sm font-medium">Roupas especiais</span>
             </div>
             <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-              <CheckCircle className="w-5 h-5 text-white" />
-              <span className="text-sm font-medium">EPIs Certificados</span>
+              <HardHat className="w-5 h-5 text-primary-glow" />
+              <span className="text-sm font-medium">EPIs e materiais</span>
             </div>
           </div>
           
@@ -93,25 +87,25 @@ const Hero = () => {
           </div>
           
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto">
+          <div className="grid grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto border-t border-white/20 pt-8">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">150+</div>
-              <div className="text-sm text-white/80">Clientes Atendidos</div>
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">100+</div>
+              <div className="text-sm text-white/80">Clientes cadastrados</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">2011</div>
               <div className="text-sm text-white/80">Fundação da Empresa</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">100%</div>
-              <div className="text-sm text-white/80">Qualidade Garantida</div>
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">8–18h</div>
+              <div className="text-sm text-white/80">Segunda a sexta</div>
             </div>
           </div>
         </div>
       </div>
       
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 opacity-70">
         <div className="w-1 h-16 bg-white/30 rounded-full flex justify-center">
           <div className="w-1 h-6 bg-white rounded-full animate-pulse"></div>
         </div>

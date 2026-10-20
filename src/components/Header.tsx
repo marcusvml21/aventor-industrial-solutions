@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Mail } from "lucide-react";
+import { Menu, X, Mail, ArrowUpRight } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,6 +45,9 @@ const Header = () => {
               <Mail className="w-4 h-4 text-primary" />
               <span className="text-muted-foreground">contato@aventor.com.br</span>
             </div>
+            <Button onClick={() => window.open('https://wa.me/5521998457455', '_blank')} size="sm" className="font-semibold">
+              WhatsApp <ArrowUpRight className="ml-1 h-4 w-4" />
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}

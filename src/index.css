@@ -9,7 +9,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 217 19% 27%;
+    --foreground: 215 28% 17%;
 
     --card: 0 0% 100%;
     --card-foreground: 217 19% 27%;
@@ -17,37 +17,37 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 217 19% 27%;
 
-    --primary: 217 91% 60%;
+    --primary: 214 62% 34%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 217 91% 70%;
+    --primary-glow: 36 83% 54%;
 
-    --secondary: 217 32% 17%;
+    --secondary: 215 28% 13%;
     --secondary-foreground: 0 0% 98%;
 
     --muted: 217 10% 96%;
-    --muted-foreground: 217 10% 45%;
+    --muted-foreground: 215 12% 42%;
 
-    --accent: 217 91% 60%;
+    --accent: 36 83% 54%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 20% 90%;
+    --border: 215 18% 88%;
     --input: 217 20% 95%;
-    --ring: 217 91% 60%;
+    --ring: 214 62% 34%;
 
     /* AVENTOR Brand Colors */
-    --aventor-blue: 217 91% 60%;
-    --aventor-blue-light: 217 91% 70%;
-    --aventor-blue-dark: 217 91% 50%;
-    --aventor-gray: 217 10% 45%;
-    --aventor-gray-light: 217 10% 96%;
+    --aventor-blue: 214 62% 34%;
+    --aventor-blue-light: 214 42% 48%;
+    --aventor-blue-dark: 215 28% 13%;
+    --aventor-gray: 215 12% 42%;
+    --aventor-gray-light: 210 20% 97%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--aventor-blue)), hsl(var(--aventor-blue-light)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--aventor-blue)) 0%, hsl(var(--aventor-blue-light)) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(217 20% 98%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(var(--aventor-blue-dark)), hsl(var(--aventor-blue)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--aventor-blue-dark)) 0%, hsl(var(--aventor-blue)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 20% 98%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(var(--aventor-gray-light)) 100%);
 
     /* Shadows */
@@ -60,7 +60,7 @@ All colors MUST be HSL.
 
     /* Marquee Animation */
     --marquee-duration: 60s;
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-bounce: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 
     --radius: 0.5rem;
 
@@ -91,7 +91,7 @@ All colors MUST be HSL.
     --popover: 217 19% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 217 91% 70%;
+    --primary: 36 83% 58%;
     --primary-foreground: 217 19% 9%;
     --primary-glow: 217 91% 80%;
 
@@ -101,7 +101,7 @@ All colors MUST be HSL.
     --muted: 217 19% 15%;
     --muted-foreground: 217 10% 65%;
 
-    --accent: 217 91% 70%;
+    --accent: 36 83% 58%;
     --accent-foreground: 217 19% 9%;
 
     --destructive: 0 62.8% 50%;

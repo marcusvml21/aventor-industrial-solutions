@@ -4,9 +4,9 @@ import { Star, Settings, Palette, Users2, CheckCircle, Award, Clock, Cog } from 
 const Differentials = () => {
   const differentials = [{
     icon: Star,
-    title: "Mais de 30 Anos de Experiência",
-    description: "Três décadas de expertise em confecção de roupas profissionais e soluções industriais.",
-    highlight: "Tradição"
+    title: "Atuação desde 2011",
+    description: "Uma operação construída para atender empresas com seriedade, proximidade e consistência.",
+    highlight: "Experiência"
   }, {
     icon: Settings,
     title: "Modelagem Customizada",
@@ -14,26 +14,26 @@ const Differentials = () => {
     highlight: "Personalização"
   }, {
     icon: Palette,
-    title: "Diversidade de Materiais",
-    description: "Ampla variedade de tecidos, bolsos e acessórios para atender todos os segmentos industriais.",
+    title: "Soluções sob medida",
+    description: "Modelagem, tecidos, bolsos e acessórios escolhidos conforme a rotina de cada operação.",
     highlight: "Variedade"
   }, {
     icon: Cog,
-    title: "Máquinas Modernas",
-    description: "Equipamentos de última geração e profissionais altamente qualificados para garantir a excelência.",
-    highlight: "Tecnologia"
+    title: "Atendimento próximo",
+    description: "Acompanhamento direto para entender a necessidade e indicar a solução mais adequada.",
+    highlight: "Parceria"
   }];
-  const features = ["Certificações de Qualidade", "Atendimento Personalizado", "Entrega Dentro do Prazo", "Suporte Técnico Especializado", "Controle de Qualidade Rigoroso", "Flexibilidade de Produção"];
+  const features = ["Atendimento personalizado", "Entrega dentro do prazo combinado", "Acompanhamento próximo", "Flexibilidade de produção", "Modelagem personalizada", "Soluções para diferentes operações"];
   return <section id="diferenciais" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Nossos <span className="text-primary">Diferenciais</span>
+              Por que escolher a <span className="text-primary">AVENTOR</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              O que nos torna únicos no mercado de soluções industriais
+                Uma parceria prática para vestir, proteger e apoiar sua operação.
             </p>
           </div>
 
@@ -91,32 +91,32 @@ const Differentials = () => {
               <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-10 h-10 text-primary" />
               </div>
-              <div className="text-3xl font-bold text-foreground mb-2">30+</div>
-              <div className="text-sm text-muted-foreground">Anos no Mercado</div>
+                <div className="text-3xl font-bold text-foreground mb-2">2011</div>
+                <div className="text-sm text-muted-foreground">Início da Aventor</div>
             </div>
             
             <div className="text-center">
               <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users2 className="w-10 h-10 text-primary" />
               </div>
-              <div className="text-3xl font-bold text-foreground mb-2">150+</div>
-              <div className="text-sm text-muted-foreground">Clientes Atendidos</div>
+                <div className="text-3xl font-bold text-foreground mb-2">100+</div>
+                <div className="text-sm text-muted-foreground">Clientes cadastrados</div>
             </div>
             
             <div className="text-center">
               <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-10 h-10 text-primary" />
               </div>
-              <div className="text-3xl font-bold text-foreground mb-2">100%</div>
-              <div className="text-sm text-muted-foreground">Qualidade Garantida</div>
+                <div className="text-3xl font-bold text-foreground mb-2">1</div>
+                <div className="text-sm text-muted-foreground">Canal direto via WhatsApp</div>
             </div>
             
             <div className="text-center">
               <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-10 h-10 text-primary" />
               </div>
-              <div className="text-3xl font-bold text-foreground mb-2">24h</div>
-              <div className="text-sm text-muted-foreground">Suporte Disponível</div>
+                <div className="text-3xl font-bold text-foreground mb-2">8–18h</div>
+                <div className="text-sm text-muted-foreground">Segunda a sexta</div>
             </div>
           </div>
         </div>

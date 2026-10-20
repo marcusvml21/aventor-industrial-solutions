@@ -40,7 +40,7 @@ const ProductMarquee = () => {
       category: "Equipamentos"
     },
     { 
-      name: "EPIs Certificados", 
+      name: "EPIs e acessórios",
       image: productEpis,
       category: "Segurança"
     }

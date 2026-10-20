@@ -46,10 +46,9 @@ const About = () => {
                   História e Tradição
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6 text-justify">
-                  Fundada em <strong className="text-primary">2011</strong>, a AVENTOR conta com
-                  mais de <strong className="text-primary">30 anos de experiência</strong> na
-                  confecção de roupas profissionais, consolidando-se como referência no setor
-                  de soluções industriais e de segurança.
+                  Fundada em <strong className="text-primary">2011</strong>, a AVENTOR atua
+                  com confecção de roupas profissionais e fornecimento de soluções industriais
+                  para empresas que valorizam segurança, padronização e confiança.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                   Especializados em fabricação de roupas especiais:{" "}
@@ -65,8 +64,8 @@ const About = () => {
                 <Card className="bg-gradient-card border-border/50 shadow-card hover:shadow-hover transition-all duration-300">
                   <CardContent className="p-6 text-center">
                     <Award className="w-8 h-8 text-primary mx-auto mb-3" />
-                    <div className="text-2xl font-bold text-foreground mb-1">30+</div>
-                    <div className="text-sm text-muted-foreground">Anos de Experiência</div>
+                    <div className="text-2xl font-bold text-foreground mb-1">100+</div>
+                    <div className="text-sm text-muted-foreground">Clientes cadastrados</div>
                   </CardContent>
                 </Card>
 
@@ -74,7 +73,7 @@ const About = () => {
                   <CardContent className="p-6 text-center">
                     <Users className="w-8 h-8 text-primary mx-auto mb-3" />
                     <div className="text-2xl font-bold text-foreground mb-1">2011</div>
-                    <div className="text-sm text-muted-foreground">Fundação</div>
+                    <div className="text-sm text-muted-foreground">Início da Aventor</div>
                   </CardContent>
                 </Card>
               </div>
