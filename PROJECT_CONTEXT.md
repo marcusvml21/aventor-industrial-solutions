@@ -145,3 +145,6 @@ Artefato publicado confirmado no branch `gh-pages`, commit `be9d4c0`.
 
 Checkpoint da fase: commit `0f5e9d0`, tag `aventor-fase3-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `363d282`.
+
+Checkpoint da atualização institucional: commit `7aae9be`, tag `aventor-fase3-sobre-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `c6019f1`.
