@@ -80,4 +80,8 @@ Validações da fase:
 - Detector visual Impeccable: nenhum achado; execução em modo degradado por ausência de módulos opcionais do parser HTML.
 - Inspeção visual local: abertura revisada e favicon conferido.
 
-Estado: pronto para publicação.
+Estado: publicado no GitHub Pages.
+
+Checkpoint da fase: commit `cec98c0`, tag `aventor-fase1-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `45a1383`.
+O domínio pode permanecer temporariamente em cache antigo na CDN; isso não representa falha do artefato publicado.
