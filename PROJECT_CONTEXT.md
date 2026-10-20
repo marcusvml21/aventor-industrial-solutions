@@ -132,4 +132,7 @@ Validações da fase:
 - Detector visual Impeccable: nenhum achado.
 - `git diff --check`: aprovado.
 
-Estado: pronto para publicação.
+Estado: publicado no GitHub Pages.
+
+Checkpoint da fase: commit `0f5e9d0`, tag `aventor-fase3-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `363d282`.
