@@ -12,7 +12,7 @@ import {
   Users,
   ArrowRight 
 } from "lucide-react";
-import productsImage from "@/assets/products-uniforms.jpg";
+import productsImage from "@/assets/products-uniforms-v2.jpg";
 
 const Services = () => {
   const services = [
@@ -81,8 +81,8 @@ const Services = () => {
               src={productsImage} 
               alt="Linha completa de uniformes profissionais e EPIs da AVENTOR"
               className="w-full h-64 md:h-80 object-cover rounded-2xl shadow-elegant"
-              width="1200"
-              height="800"
+              width="1448"
+              height="1086"
               loading="lazy"
               decoding="async"
             />

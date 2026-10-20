@@ -124,6 +124,9 @@ Implementado:
 - As demais imagens institucionais e de produtos não foram alteradas.
 - A imagem foi convertida para JPEG otimizado, reduzindo o arquivo para aproximadamente 376 KB.
 - Texto alternativo mantido descritivo e sem afirmar que a cena representa instalações reais da AVENTOR.
+- Segunda amostra visual apresentada e aprovada para a imagem de produtos/uniformes.
+- Imagem da seção de produtos/uniformes substituída; a imagem anterior foi preservada no projeto.
+- Nova imagem otimizada para aproximadamente 392 KB.
 
 Validações da fase:
 
@@ -132,7 +135,7 @@ Validações da fase:
 - Detector visual Impeccable: nenhum achado.
 - `git diff --check`: aprovado.
 
-Estado: publicado no GitHub Pages.
+Estado: pronto para nova publicação.
 
 Checkpoint da fase: commit `0f5e9d0`, tag `aventor-fase3-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `363d282`.
