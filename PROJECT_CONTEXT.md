@@ -108,4 +108,7 @@ Validações da fase:
 - Detector visual Impeccable: nenhum achado; execução em modo degradado por ausência de módulos opcionais do parser HTML.
 - Verificação de resíduos SEO: nenhuma referência antiga a certificações, “30+”, imagem social inexistente ou metadado removido.
 
-Estado: pronto para publicação.
+Estado: publicado no GitHub Pages.
+
+Checkpoint da fase: commit `8b9c366`, tag `aventor-fase2-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `a6f7cef`.
