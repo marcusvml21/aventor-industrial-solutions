@@ -6,7 +6,7 @@ import aboutCompany from "/lovable-uploads/2a4d56e3-40f4-46ea-9c52-97815d33e9e7.
 import productCables from "@/assets/product-cables.jpg";
 import productCleaning from "@/assets/product-cleaning.jpg";
 import productTools from "@/assets/product-tools.jpg";
-import productEpis from "@/assets/product-epis.jpg";
+import productEpis from "@/assets/product-epis-v2.jpg";
 
 const ProductMarquee = () => {
   const [isPaused, setIsPaused] = useState(false);

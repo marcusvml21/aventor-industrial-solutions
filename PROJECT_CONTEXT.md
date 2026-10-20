@@ -130,6 +130,9 @@ Implementado:
 - Terceira amostra visual apresentada e aprovada para a seção “Sobre a AVENTOR”.
 - Imagem da seção “Sobre” substituída; a imagem anterior foi preservada no projeto.
 - Nova imagem otimizada para aproximadamente 372 KB.
+- Quarta amostra visual apresentada e aprovada para a categoria de EPIs e materiais industriais.
+- Imagem da categoria de EPIs e acessórios substituída no carrossel de produtos; a imagem anterior foi preservada.
+- Nova imagem otimizada para aproximadamente 432 KB.
 
 Validações da fase:
 
