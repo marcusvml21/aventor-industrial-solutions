@@ -112,3 +112,24 @@ Estado: publicado no GitHub Pages.
 
 Checkpoint da fase: commit `8b9c366`, tag `aventor-fase2-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `a6f7cef`.
+
+## Fase 3 — Amostra visual aprovada e imagem principal — 2026-10-20
+
+Objetivo: substituir somente a imagem principal após apresentação e aprovação prévia de uma amostra visual.
+
+Implementado:
+
+- Amostra visual apresentada ao proprietário e aprovada antes da alteração.
+- Imagem principal substituída por uma fotografia editorial industrial com espaço negativo para o texto da abertura.
+- As demais imagens institucionais e de produtos não foram alteradas.
+- A imagem foi convertida para JPEG otimizado, reduzindo o arquivo para aproximadamente 376 KB.
+- Texto alternativo mantido descritivo e sem afirmar que a cena representa instalações reais da AVENTOR.
+
+Validações da fase:
+
+- `npm run lint`: aprovado sem erros; 7 avisos preexistentes de Fast Refresh.
+- `npm run build`: aprovado.
+- Detector visual Impeccable: nenhum achado.
+- `git diff --check`: aprovado.
+
+Estado: pronto para publicação.

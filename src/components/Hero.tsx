@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-diverse-industrial.jpg";
+import heroImage from "@/assets/hero-industrial-v2.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -20,10 +20,10 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
-          alt="Profissionais industriais usando equipamentos de segurança AVENTOR"
+          alt="Equipe industrial usando uniformes profissionais em ambiente de produção"
           className="w-full h-full object-cover"
-          width="1920"
-          height="1080"
+          width="1672"
+          height="941"
           loading="eager"
           fetchPriority="high"
           decoding="async"
