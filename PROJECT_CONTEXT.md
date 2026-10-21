@@ -181,4 +181,5 @@ Artefato publicado confirmado no branch `gh-pages`, commit `ea80d96`.
 Checkpoint da atualização de fábrica: commit `d32003f`, tag `aventor-fase3-fabrica-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `414929a`.
 
-Checkpoint da atualização de uniformes: pendente até a validação do deploy automático.
+Checkpoint da atualização de uniformes: commit `b8c3ed4`, tag `aventor-fase3-uniformes-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `547714f`.
