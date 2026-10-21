@@ -199,4 +199,7 @@ Validações:
 - `npm run build`: aprovado.
 - `git diff --check`: aprovado.
 
-Estado: aguardando publicação e confirmação do novo código HTTP 200 no domínio.
+Estado: publicado e confirmado no domínio; `/sitemap.xml` responde HTTP 200.
+
+Checkpoint da fase: commit `2e3f27a`, tag `aventor-fase4-seo-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `625232a`.
