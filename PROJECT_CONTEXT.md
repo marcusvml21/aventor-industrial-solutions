@@ -136,6 +136,9 @@ Implementado:
 - Quinta amostra visual apresentada e aprovada para material elétrico e hidráulico.
 - Imagem da categoria de material elétrico e hidráulico substituída no carrossel; a imagem anterior foi preservada.
 - Nova imagem otimizada para aproximadamente 512 KB.
+- Sexta amostra visual apresentada e aprovada para material de limpeza.
+- Imagem da categoria de material de limpeza substituída no carrossel; a imagem anterior foi preservada.
+- Nova imagem otimizada para aproximadamente 282 KB.
 
 Validações da fase:
 
@@ -160,3 +163,5 @@ Artefato publicado confirmado no branch `gh-pages`, commit `8ba717d`.
 
 Checkpoint da atualização de materiais: commit `5997f84`, tag `aventor-fase3-materiais-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `8a4dba1`.
+
+Checkpoint da atualização de material de limpeza: pendente até a validação do deploy automático.
