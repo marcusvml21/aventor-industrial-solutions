@@ -133,6 +133,9 @@ Implementado:
 - Quarta amostra visual apresentada e aprovada para a categoria de EPIs e materiais industriais.
 - Imagem da categoria de EPIs e acessórios substituída no carrossel de produtos; a imagem anterior foi preservada.
 - Nova imagem otimizada para aproximadamente 432 KB.
+- Quinta amostra visual apresentada e aprovada para material elétrico e hidráulico.
+- Imagem da categoria de material elétrico e hidráulico substituída no carrossel; a imagem anterior foi preservada.
+- Nova imagem otimizada para aproximadamente 512 KB.
 
 Validações da fase:
 
