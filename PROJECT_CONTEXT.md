@@ -139,6 +139,9 @@ Implementado:
 - Sexta amostra visual apresentada e aprovada para material de limpeza.
 - Imagem da categoria de material de limpeza substituída no carrossel; a imagem anterior foi preservada.
 - Nova imagem otimizada para aproximadamente 282 KB.
+- Sétima amostra visual apresentada e aprovada para ferramentas.
+- Imagem da categoria de ferramentas substituída no carrossel; a imagem anterior foi preservada.
+- Nova imagem otimizada para aproximadamente 350 KB.
 
 Validações da fase:
 
@@ -166,3 +169,5 @@ Artefato publicado confirmado no branch `gh-pages`, commit `8a4dba1`.
 
 Checkpoint da atualização de material de limpeza: commit `7e13577`, tag `aventor-fase3-limpeza-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `d45cf99`.
+
+Checkpoint da atualização de ferramentas: pendente até a validação do deploy automático.
