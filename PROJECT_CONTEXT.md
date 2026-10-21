@@ -157,3 +157,6 @@ Artefato publicado confirmado no branch `gh-pages`, commit `c6019f1`.
 
 Checkpoint da atualização de EPIs: commit `e703207`, tag `aventor-fase3-epis-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `8ba717d`.
+
+Checkpoint da atualização de materiais: commit `5997f84`, tag `aventor-fase3-materiais-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `8a4dba1`.
