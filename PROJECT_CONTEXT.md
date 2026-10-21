@@ -183,3 +183,20 @@ Artefato publicado confirmado no branch `gh-pages`, commit `414929a`.
 
 Checkpoint da atualização de uniformes: commit `b8c3ed4`, tag `aventor-fase3-uniformes-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `547714f`.
+
+## Fase 4 — Correção SEO técnico — 2026-10-20
+
+Objetivo: corrigir a descoberta pública do sitemap após a auditoria final do domínio.
+
+Implementado:
+
+- Criado `public/sitemap.xml` com a rota pública principal, data de atualização e prioridade.
+- Mantida a referência do sitemap em `robots.txt` e no HTML principal.
+
+Validações:
+
+- Auditoria pública identificou que `/sitemap.xml` retornava 404 antes da correção.
+- `npm run build`: aprovado.
+- `git diff --check`: aprovado.
+
+Estado: aguardando publicação e confirmação do novo código HTTP 200 no domínio.
