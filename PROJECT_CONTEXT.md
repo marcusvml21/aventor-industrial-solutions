@@ -215,4 +215,7 @@ Implementado:
 - Botão “Voltar ao Topo” passou de `outline` para o estilo primário, mantendo fundo e texto legíveis sem hover.
 - Logo original preservada para rollback e demais usos.
 
-Estado: aguardando validação visual e publicação.
+Estado: publicado após validação de build, lint, detector visual e diff.
+
+Checkpoint da atualização visual: commit `1eb5afc`, tag `aventor-ajuste-logo-botao-2026-10-20`.
+Artefato publicado confirmado no branch `gh-pages`, commit `9662be3`.
