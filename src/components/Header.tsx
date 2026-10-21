@@ -14,8 +14,7 @@ const Header = () => {
   };
 
   // ✅ Usa a base configurada no Vite (base: './')
-  const logoSrc = `${import.meta.env.BASE_URL}Logo.png`;
-  // Alternativa equivalente: const logoSrc = "Logo.png";
+  const logoSrc = `${import.meta.env.BASE_URL}logo-header-cropped.jpg`;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-card">
@@ -26,7 +25,7 @@ const Header = () => {
             <img
               src={logoSrc}
               alt="AVENTOR Logo"
-              className="h-24 w-auto drop-shadow-sm"
+              className="h-16 md:h-[4.5rem] w-auto object-contain drop-shadow-sm"
             />
           </div>
 

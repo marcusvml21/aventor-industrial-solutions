@@ -203,3 +203,16 @@ Estado: publicado e confirmado no domínio; `/sitemap.xml` responde HTTP 200.
 
 Checkpoint da fase: commit `2e3f27a`, tag `aventor-fase4-seo-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `625232a`.
+
+## Ajuste visual — logo do topo e botão de retorno — 2026-10-20
+
+Objetivo: corrigir o recorte visual da logo no cabeçalho e garantir contraste no estado normal do botão “Voltar ao Topo”.
+
+Implementado:
+
+- Criado `public/logo-header-cropped.jpg`, recortado da logo oficial sem a sobra branca excessiva.
+- Cabeçalho passou a usar a versão recortada com altura responsiva, preservando presença visual sem ampliar o espaço ocupado.
+- Botão “Voltar ao Topo” passou de `outline` para o estilo primário, mantendo fundo e texto legíveis sem hover.
+- Logo original preservada para rollback e demais usos.
+
+Estado: aguardando validação visual e publicação.

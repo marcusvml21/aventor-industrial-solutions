@@ -180,10 +180,9 @@ const Footer = () => {
                 <span>Atendimento humanizado</span>
               </div>
               <Button
-                variant="outline"
+                variant="default"
                 size="sm"
                 onClick={scrollToTop}
-                className="hover:bg-primary hover:text-white transition-colors"
               >
                 <ArrowUp className="w-4 h-4 mr-2" />
                 Voltar ao Topo
