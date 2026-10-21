@@ -145,6 +145,8 @@ Implementado:
 - Oitava amostra visual apresentada e aprovada para fábrica e estrutura operacional.
 - Imagem da categoria de fábrica substituída no carrossel; a imagem anterior foi preservada.
 - Nova imagem otimizada para aproximadamente 363 KB.
+- Nona amostra visual: reutilização autorizada da imagem de uniformes já aprovada na seção de produtos.
+- Imagem da categoria de uniformes substituída no carrossel; a imagem anterior foi preservada.
 
 Validações da fase:
 
@@ -178,3 +180,5 @@ Artefato publicado confirmado no branch `gh-pages`, commit `ea80d96`.
 
 Checkpoint da atualização de fábrica: commit `d32003f`, tag `aventor-fase3-fabrica-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `414929a`.
+
+Checkpoint da atualização de uniformes: pendente até a validação do deploy automático.

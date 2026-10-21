@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import productUniforms from "@/assets/products-uniforms.jpg";
+import productUniforms from "@/assets/products-uniforms-v2.jpg";
 import aboutCompany from "@/assets/factory-structure-v2.jpg";
 import productCables from "@/assets/product-cables-v2.jpg";
 import productCleaning from "@/assets/product-cleaning-v2.jpg";
