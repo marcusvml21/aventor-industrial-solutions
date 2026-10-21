@@ -142,6 +142,9 @@ Implementado:
 - Sétima amostra visual apresentada e aprovada para ferramentas.
 - Imagem da categoria de ferramentas substituída no carrossel; a imagem anterior foi preservada.
 - Nova imagem otimizada para aproximadamente 350 KB.
+- Oitava amostra visual apresentada e aprovada para fábrica e estrutura operacional.
+- Imagem da categoria de fábrica substituída no carrossel; a imagem anterior foi preservada.
+- Nova imagem otimizada para aproximadamente 363 KB.
 
 Validações da fase:
 
@@ -172,3 +175,5 @@ Artefato publicado confirmado no branch `gh-pages`, commit `d45cf99`.
 
 Checkpoint da atualização de ferramentas: commit `77bcb74`, tag `aventor-fase3-ferramentas-2026-10-20`.
 Artefato publicado confirmado no branch `gh-pages`, commit `ea80d96`.
+
+Checkpoint da atualização de fábrica: pendente até a validação do deploy automático.
